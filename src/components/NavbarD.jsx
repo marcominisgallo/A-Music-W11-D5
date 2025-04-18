@@ -17,7 +17,7 @@ const NavbarD = () => {
             <Form.Control
               type="search"
               placeholder="Search"
-              className="me-2 text-black custom-placeholder"
+              className="me-2 text-black custom-placeholder  bg-dark"
               aria-label="Search"
             />
             <Button
