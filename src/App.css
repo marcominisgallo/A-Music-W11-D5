@@ -1,7 +1,7 @@
 .custom-navbar-toggle {
-  color: #fa586b !important; /* Cambia il colore del testo */
-  background-color: #333 !important; /* Cambia il colore dello sfondo */
-  border:  2px solid #fa586b !important; /* Cambia il colore del bordo */
+  color: #fa586b !important;
+  background-color: #333 !important;
+  border:  2px solid #fa586b !important;
 }
 .customc{
   color: #fa586b !important;
@@ -10,5 +10,13 @@ span.navbar-toggler-icon {
   color: #fa586b !important;
 }
 .progress-bar-white .progress-bar {
-  background-color: white !important; /* Colore della barra */
+  background-color: white !important;
+}
+.flex-nowrap {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.flex-nowrap::-webkit-scrollbar {
+  display: none;
 }
