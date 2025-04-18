@@ -37,7 +37,7 @@ function AMNavbar() {
               <Form.Control
                 type="search"
                 placeholder="Search"
-                className="me-2 "
+                className="me-2 custom-placeholder"
                 aria-label="Search"
               />
               <Button variant="outline-success custom-navbar-toggle">

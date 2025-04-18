@@ -20,3 +20,7 @@ span.navbar-toggler-icon {
 .flex-nowrap::-webkit-scrollbar {
   display: none;
 }
+.custom-placeholder::placeholder {
+  color: #fa586b !important;
+  font-size: 0.85em;
+}
