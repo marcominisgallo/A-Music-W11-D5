@@ -14,7 +14,7 @@ const AltroDaEsplorare = () => {
     "Hit del passato",
   ];
   return (
-    <Row>
+    <Row className="mb-5 ">
       <h4>Altro da esplorare</h4>
       {categories.map((category, i) => (
         <Col xs={12} md={6} lg={4} className="rounded-2 g-3">

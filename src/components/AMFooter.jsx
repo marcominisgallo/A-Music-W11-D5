@@ -2,7 +2,7 @@ import { Col, Container, Row } from "react-bootstrap";
 
 const AMFooter = () => {
   return (
-    <Row fluid>
+    <Row className="mb-4">
       <Col xs={12}>
         <Row>
           <Col xs={3} lg={2}>

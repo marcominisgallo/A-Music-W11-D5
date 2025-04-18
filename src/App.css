@@ -6,3 +6,9 @@
 .customc{
   color: #fa586b !important;
 }
+span.navbar-toggler-icon {
+  color: #fa586b !important;
+}
+.progress-bar-white .progress-bar {
+  background-color: white !important; /* Colore della barra */
+}

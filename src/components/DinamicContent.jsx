@@ -37,7 +37,7 @@ const DinamicContent = () => {
           })
           .then((json) => {
             if (json && json.data && json.data.length > 0) {
-              results.push(json.data[1]); // Prendi il primo elemento
+              results.push(json.data[1]);
             }
           })
           .catch((error) => {
@@ -60,7 +60,7 @@ const DinamicContent = () => {
         <h4>
           Nuove uscite <ArrowRight />
         </h4>
-        {loading ? ( // Mostra lo spinner se loading è true
+        {loading ? (
           <Spinner animation="border" role="status" className="mx-auto">
             <span className="visually-hidden">Caricamento...</span>
           </Spinner>
