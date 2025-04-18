@@ -4,6 +4,8 @@ import NavbarD from "./NavbarD";
 import Novita from "./Novita";
 import NuoviEpisodi from "./NuoviEpisodi";
 import AMFooter from "./AMFooter";
+import DinamicContent from "./DinamicContent";
+import AltroDaEsplorare from "./AltroDaEsplorare";
 
 const Home = () => {
   return (
@@ -12,10 +14,12 @@ const Home = () => {
         <Col xs={0} lg={2} className=" d-none d-lg-block">
           <NavbarD />
         </Col>
-        <Col xs={12} lg={9} className="text-white">
+        <Col xs={12} lg={9} className="text-white bg-black">
           <Container className="mt-3">
             <Novita />
             <NuoviEpisodi />
+            <DinamicContent />
+            <AltroDaEsplorare />
             <AMFooter />
           </Container>
         </Col>

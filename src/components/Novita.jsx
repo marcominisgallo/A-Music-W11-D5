@@ -3,10 +3,10 @@ import { Col, Container, Row } from "react-bootstrap";
 const Novita = () => {
   return (
     <>
-      <Row className="border-bottom border-secondary">
+      <Row>
         <Col>
-          <h1>Novità</h1>
-          <Row className="mb-3">
+          <h1 className="border-bottom border-secondary my-3">Novità</h1>
+          <Row className="my-3">
             <Col xs={12} lg={6}>
               <p>NUOVA STAZIONE RADIO</p>
               <h6>Rilassati, al resto pensiamo noi.</h6>

@@ -44,9 +44,9 @@ function AMNavbar() {
                 Search
               </Button>
             </Form>
-            <Nav.Link href="#features">Home</Nav.Link>
-            <Nav.Link href="#pricing">Novità</Nav.Link>
-            <Nav.Link href="#deets">Radio</Nav.Link>
+            <Nav.Link href="#">Home</Nav.Link>
+            <Nav.Link href="#">Novità</Nav.Link>
+            <Nav.Link href="#">Radio</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
